@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.live-page-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.live-display {
+  width: 800px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 2px #b1b1b1;
+}
+
+.live-display img {
+  width: 100%;
+}
+
+.live-header {
+  margin-top: 0px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  background-color: #e1e1e1;
+  border-radius: 10px 10px 0 0;
+}
+
+.live-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.live-full-screen {
+  margin-left: auto;
+  padding: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  width: max-content;
+  background-color: #e1e1e1;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.live-full-screen:hover {
+  background-color: #c5c5c5;
+}
